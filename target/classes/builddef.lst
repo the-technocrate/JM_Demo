@@ -1,0 +1,16 @@
+-classpath
+C:\Users\dharmeshb\.m2\repository\com\google\code\guice\guice\1.0\guice-1.0.jar;C:\Users\dharmeshb\.m2\repository\org\springframework\spring\2.0.6\spring-2.0.6.jar;C:\Users\dharmeshb\.m2\repository\org\picocontainer\picocontainer\1.3\picocontainer-1.3.jar;C:\Users\dharmeshb\.m2\repository\junit\junit\4.3.1\junit-4.3.1.jar;C:\Users\dharmeshb\.m2\repository\aspectj\aspectjrt\1.5.2a\aspectjrt-1.5.2a.jar;C:\Users\dharmeshb\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;C:\Users\dharmeshb\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Users\dharmeshb\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;C:\Users\dharmeshb\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;C:\Users\dharmeshb\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;C:\Users\dharmeshb\workspace\GuicePicoSpringComparison\target\classes
+-d
+C:\Users\dharmeshb\workspace\GuicePicoSpringComparison\target\classes
+C:\Users\dharmeshb\workspace\GuicePicoSpringComparison\src\main\java\org\christianschenk\guicepicospringcomparison\ComparisonTest.java
+C:\Users\dharmeshb\workspace\GuicePicoSpringComparison\src\main\java\org\christianschenk\guicepicospringcomparison\LoggingAspect.aj
+C:\Users\dharmeshb\workspace\GuicePicoSpringComparison\src\main\java\org\christianschenk\guicepicospringcomparison\managers\AbstractOutputManager.java
+C:\Users\dharmeshb\workspace\GuicePicoSpringComparison\src\main\java\org\christianschenk\guicepicospringcomparison\managers\ComputationManager.java
+C:\Users\dharmeshb\workspace\GuicePicoSpringComparison\src\main\java\org\christianschenk\guicepicospringcomparison\managers\OutputManager1.java
+C:\Users\dharmeshb\workspace\GuicePicoSpringComparison\src\main\java\org\christianschenk\guicepicospringcomparison\managers\OutputManager2.java
+C:\Users\dharmeshb\workspace\GuicePicoSpringComparison\src\main\java\org\christianschenk\guicepicospringcomparison\managers\SuperManager.java
+C:\Users\dharmeshb\workspace\GuicePicoSpringComparison\src\main\java\org\christianschenk\guicepicospringcomparison\util\ComputationHelper.java
+C:\Users\dharmeshb\workspace\GuicePicoSpringComparison\src\main\java\org\christianschenk\guicepicospringcomparison\util\output\LoggerOutput.java
+C:\Users\dharmeshb\workspace\GuicePicoSpringComparison\src\main\java\org\christianschenk\guicepicospringcomparison\util\output\Output.java
+C:\Users\dharmeshb\workspace\GuicePicoSpringComparison\src\main\java\org\christianschenk\guicepicospringcomparison\util\output\SystemOutOutput.java
+C:\Users\dharmeshb\workspace\GuicePicoSpringComparison\src\main\java\org\christianschenk\guicepicospringcomparison\util\OutputHelper.java

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+	<bean id="SuperManager"	class="org.christianschenk.guicepicospringcomparison.managers.SuperManager">
+		<constructor-arg index="0">
+			<ref bean="OutputManager1" />
+		</constructor-arg>
+		<constructor-arg index="1">
+			<ref bean="OutputManager2" />
+		</constructor-arg>
+		<constructor-arg index="2">
+			<ref bean="ComputationManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="OutputManager1" class="org.christianschenk.guicepicospringcomparison.managers.OutputManager1">
+		<constructor-arg>
+			<ref bean="OutputHelperSystemOut" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="OutputManager2" class="org.christianschenk.guicepicospringcomparison.managers.OutputManager2">
+		<constructor-arg>
+			<ref bean="OutputHelperLoggerOutput" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="ComputationManager" class="org.christianschenk.guicepicospringcomparison.managers.ComputationManager">
+		<constructor-arg>
+			<ref bean="ComputationHelper" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="ComputationHelper" class="org.christianschenk.guicepicospringcomparison.util.ComputationHelper" />
+
+	<bean id="OutputHelperSystemOut" class="org.christianschenk.guicepicospringcomparison.util.OutputHelper">
+		<constructor-arg>
+			<ref bean="SystemOutOutput" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="OutputHelperLoggerOutput"	class="org.christianschenk.guicepicospringcomparison.util.OutputHelper">
+		<constructor-arg>
+			<ref bean="LoggerOutput" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="SystemOutOutput" class="org.christianschenk.guicepicospringcomparison.util.output.SystemOutOutput" />
+	<bean id="LoggerOutput"	class="org.christianschenk.guicepicospringcomparison.util.output.LoggerOutput" />
+</beans>
