@@ -39,6 +39,7 @@ import com.google.inject.Injector;
 import com.google.inject.Module;
 
 public class ComparisonTest {
+	
 
 	/*
 	 * Guice
